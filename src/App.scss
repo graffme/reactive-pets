@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 100px 0;
+  font-size: 16px;
+  color: white;
+}
+
+.App-paw {
+  animation: App-paw-spin infinite 20s linear;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+//GALLERY STYLES
+.petGallery {
+  margin: 50px 0 50px 0;
+}
+
+.petTile {
+
+  margin: 15px 0 15px 0;
+
+  img {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@keyframes App-paw-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
